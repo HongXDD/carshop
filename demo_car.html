@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Car Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Demo Car Model Name</h1>
+        <p class="subtext">At this point, you can see the car directly, just fill in the information below to make it easier to meet to see the car.</p>
+
+        <div class="form-section">
+            <h2>Find Location and Time</h2>
+            <label for="postal-code">Postal Code:</label>
+            <input type="text" id="postal-code" placeholder="Enter Postal Code">
+        </div>
+
+        <div class="form-section">
+            <h2>Contact Information</h2>
+            <div class="form-group">
+                <div class="col">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" placeholder="First Name">
+                </div>
+                <div class="col">
+                    <label for="last-name" class="name-take">Last Name</label>
+                    <input type="text" id="last-name" placeholder="Last Name">
+                </div>
+
+            </div>
+            <div class="form-group">
+                <div class="col">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Email Address">
+                </div>
+                <div class="col">
+                    <label for="phone-number">Phone Number</label>
+                    <div id="input-num">
+                        <span class="country-code">KH +855</span>
+                        <input type="tel" id="phone-number" placeholder="Phone Number"  >
+                    </div>
+                </div>
+            </div>
+
+            <div class="checkbox-section">
+                <input type="checkbox" id="learn-any">
+                <label for="learn-any">Learn about Any Products</label>
+            </div>
+
+            <p class="terms">By continuing, I agree to the <a href="#">Terms and Conditions</a></p>
+        </div>
+
+        <button type="submit" class="btn">Schedule Demo Car</button>
+        
+        <div class="text">
+            <p>Contact for more information</p>
+        </div>
+    </div>
+</body>
+</html>
